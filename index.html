@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Expense Tracker</title>
+        <link rel="stylesheet" href="assets/styles/styles.css">
+        <script src="assets/scripts/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <div class="logo">
+                    <img src="https://www.stockvault.net/data/2009/05/08/108817/thumb16.jpg" alt="Expense Tracker logo">
+                    <h1>Expense Tracker</h1>
+                </div>
+            </header>
+            <main>
+                <form>
+                    <label for="expense-name">Enter expense name:</label>
+                    <input id="expense-name" type="text" placeholder="Coffee" required>
+                    <label for="expense-amount">Enter expense amount:</label>
+                    <input id="expense-amount" type="number" step="0.01" min="0.01" placeholder="1.49" required>
+                    <input id="add-expense" type="submit" value="Add Expense">
+                </form>
+                <table id="expense-table">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Amount</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                    <tfoot>
+                        <tr>
+                            <td>Total Expenses</td>
+                            <td id="total-expenses">$0.00</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </main>
+            <footer>
+                &copy; 2025 <a href="https://github.com/muhdfdeen" target="_blank">muhdfdeen</a>. Expense Tracker.
+            </footer>
+        </div>
+    </body>
+</html>
