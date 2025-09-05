@@ -1,10 +1,11 @@
 <div align="center">
     <h1>Expense Tracker</h1>
     A minimal expense tracker built with plain HTML, CSS and JavaScript.
-    The goal of this project is to both test and showcase my core web development skills.
-    <br><br>
-    <a href="https://muhdfdeen.github.io/expense-tracker">View Demo</a>
 </div>
+
+## Purpose
+
+The goal of this project is to both test and showcase my core web development skills. This project also serves as a personal tool to help me manage my finances better. Check out the project [here](https://muhdfdeen.github.io/expense-tracker).
 
 ## Features
 
